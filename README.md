@@ -10,6 +10,14 @@
   <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
+<p align="center">
+
+# 🌐 Live Demo
+
+### 👉 https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
+
+</p>
+
 ---
 
 # 📌 Project Overview
@@ -106,29 +114,23 @@ IPL-EDA-Project
 ---
 
 
-
 # 📷 Screenshots
 
 ## 📊 Power BI Dashboard
 
 <p align="center">
-<img src="screenshots/dashboard.png" alt="Power BI Dashboard" width="1000">
+<img src="screenshots/dashboard.png" width="1000">
 </p>
-
-The Power BI dashboard provides interactive visualizations including:
-
-- KPI Cards
-- Team Performance Analysis
-- Player Statistics
-- Season-wise Trends
-- Venue Analysis
-- Toss Analysis
 
 ---
 
 ## 🌐 Streamlit Dashboard
 
-The project also includes an interactive Streamlit web application featuring:
+### Live Application
+
+👉 https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
+
+### Features
 
 - 📊 KPI Cards
 - 📅 Season Filter
@@ -140,16 +142,14 @@ The project also includes an interactive Streamlit web application featuring:
 - 📋 Dataset Preview
 - 📥 CSV Download
 
-> **🌐 Live Demo:** Coming Soon (Will be deployed on Streamlit Community Cloud)
-
 ---
 
 # 📈 Key Insights
 
 - 🏆 Mumbai Indians are among the most successful IPL franchises.
 - 🏏 Virat Kohli ranks among the highest run scorers.
-- 🎯 Top bowlers consistently dominate wicket charts.
-- 🪙 Toss decisions influence match strategy.
+- 🎯 Leading bowlers consistently dominate wicket charts.
+- 🪙 Toss decisions influence match strategies.
 - 🏟 Venue conditions significantly impact match outcomes.
 - 📅 Match distribution varies across IPL seasons.
 
@@ -157,7 +157,7 @@ The project also includes an interactive Streamlit web application featuring:
 
 # 📊 Power BI Dashboard
 
-Open:
+Open the dashboard file:
 
 ```text
 powerbi/IPL_Analytics_Dashboard.pbix
@@ -228,9 +228,9 @@ streamlit run app.py
 
 # 🌐 Live Demo
 
-🚧 **Coming Soon**
+### 🚀 Try the Application
 
-The Streamlit dashboard will be deployed on Streamlit Community Cloud.
+https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
 
 ---
 
@@ -252,8 +252,8 @@ The Streamlit dashboard will be deployed on Streamlit Community Cloud.
 **GitHub:**  
 https://github.com/janvichauhan1639-source
 
-**LinkedIn:**  
-(Add your LinkedIn Profile URL)
+**Live Demo:**  
+https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
 
 ---
 

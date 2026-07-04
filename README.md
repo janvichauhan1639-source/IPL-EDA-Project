@@ -16,7 +16,7 @@
 
 This project presents an **end-to-end IPL Data Analytics solution** built using **Python, MySQL, Power BI, and Streamlit**.
 
-The project analyzes IPL matches from **2008–2023**, performs Exploratory Data Analysis (EDA), executes SQL business queries, generates reports, builds an interactive Power BI dashboard, and provides a live Streamlit dashboard for data visualization.
+The project analyzes IPL matches from **2008–2023**, performs Exploratory Data Analysis (EDA), executes SQL business queries, generates reports, builds an interactive Power BI dashboard, and provides a live Streamlit dashboard for visualization.
 
 ---
 
@@ -41,9 +41,9 @@ The project analyzes IPL matches from **2008–2023**, performs Exploratory Data
 | NumPy | Numerical Computing |
 | Matplotlib | Data Visualization |
 | Plotly | Interactive Charts |
-| MySQL | SQL Analysis |
 | Streamlit | Live Dashboard |
-| Power BI | Business Intelligence Dashboard |
+| MySQL | SQL Analysis |
+| Power BI | Dashboard |
 | Git | Version Control |
 | GitHub | Project Hosting |
 
@@ -113,11 +113,40 @@ IPL-EDA-Project
 
 ---
 
-# 🌐 Live Demo
+# 📷 Screenshots
 
-Coming Soon...
+## 📊 Power BI Dashboard
 
-*(After deployment on Streamlit Community Cloud, the live URL will be added here.)*
+<p align="center">
+<img src="screenshots/dashboard.png" alt="Power BI Dashboard" width="1000">
+</p>
+
+The Power BI dashboard provides interactive visualizations including:
+
+- KPI Cards
+- Team Performance Analysis
+- Player Statistics
+- Season-wise Trends
+- Venue Analysis
+- Toss Analysis
+
+---
+
+## 🌐 Streamlit Dashboard
+
+The project also includes an interactive Streamlit web application featuring:
+
+- 📊 KPI Cards
+- 📅 Season Filter
+- 👥 Team Filter
+- 🏆 Top Winning Teams
+- 🏏 Top Run Scorers
+- 🎯 Top Wicket Takers
+- 📈 Interactive Charts
+- 📋 Dataset Preview
+- 📥 CSV Download
+
+> **🌐 Live Demo:** Coming Soon (Will be deployed on Streamlit Community Cloud)
 
 ---
 
@@ -134,19 +163,17 @@ Coming Soon...
 
 # 📊 Power BI Dashboard
 
-The project includes a professional Power BI dashboard featuring:
+Open:
 
-- KPI Cards
-- Team Performance
-- Player Statistics
-- Venue Analysis
-- Toss Analysis
-- Seasonal Trends
-- Interactive Filters
+```text
+powerbi/IPL_Analytics_Dashboard.pbix
+```
 
 ---
 
 # 📄 Reports Generated
+
+The project automatically generates:
 
 - Batting Summary
 - Bowling Summary
@@ -205,21 +232,19 @@ streamlit run app.py
 
 ---
 
-# 📊 Power BI
+# 🌐 Live Demo
 
-Open the dashboard file:
+🚧 **Coming Soon**
 
-```text
-powerbi/IPL_Analytics_Dashboard.pbix
-```
+The Streamlit dashboard will be deployed on Streamlit Community Cloud.
 
 ---
 
 # 🔮 Future Improvements
 
 - Live IPL API Integration
+- Match Winner Prediction
 - Player Comparison Dashboard
-- Win Probability Prediction
 - Team Performance Prediction
 - Advanced Interactive Analytics
 - Authentication & User Login
@@ -234,12 +259,12 @@ powerbi/IPL_Analytics_Dashboard.pbix
 https://github.com/janvichauhan1639-source
 
 **LinkedIn:**  
-(Add your LinkedIn profile link)
+(Add your LinkedIn Profile URL)
 
 ---
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-Your support motivates me to build more Data Analytics and Machine Learning projects.
+Your support motivates me to build more open-source Data Analytics and Machine Learning projects.

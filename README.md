@@ -10,48 +10,50 @@
   <img src="https://img.shields.io/badge/License-MIT-green" />
 </p>
 
-<p align="center">
+---
 
 # 🌐 Live Demo
 
-### 👉 https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
+### 🚀 Try the Live Dashboard
 
-</p>
+**https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app**
 
 ---
 
 # 📌 Project Overview
 
-This project presents an **end-to-end IPL Data Analytics solution** built using **Python, MySQL, Power BI, and Streamlit**.
+This project is an **End-to-End IPL Data Analytics Dashboard** built using **Python, SQL, Power BI, and Streamlit**.
 
-The project analyzes IPL matches from **2008–2023**, performs Exploratory Data Analysis (EDA), executes SQL business queries, generates reports, builds an interactive Power BI dashboard, and provides a live Streamlit dashboard for visualization.
+The project analyzes IPL matches from **2008–2023**, performs **Exploratory Data Analysis (EDA)**, solves business problems using **SQL**, generates analytical reports, builds an interactive **Power BI Dashboard**, and provides a **live Streamlit dashboard** for interactive exploration.
 
 ---
 
 # 🎯 Objectives
 
 - Analyze IPL match data
-- Perform player performance analysis
-- Analyze team performance
-- Study batting and bowling statistics
+- Study batting performance
+- Analyze bowling statistics
+- Evaluate team performance
+- Explore venue-based insights
 - Generate business insights using SQL
-- Build an interactive Power BI dashboard
-- Develop a live Streamlit dashboard
+- Build Power BI Dashboard
+- Develop a live Streamlit Dashboard
 
 ---
 
 # 🛠 Tech Stack
 
-| Technology | Usage |
-|------------|-------|
+| Technology | Purpose |
+|------------|---------|
 | Python | Data Analysis |
 | Pandas | Data Cleaning |
 | NumPy | Numerical Computing |
-| Matplotlib | Data Visualization |
+| Matplotlib | Visualization |
 | Plotly | Interactive Charts |
-| Streamlit | Live Dashboard |
-| MySQL | SQL Analysis |
+| SQL | Data Querying |
+| MySQL | Database |
 | Power BI | Dashboard |
+| Streamlit | Web Application |
 | Git | Version Control |
 | GitHub | Project Hosting |
 
@@ -106,17 +108,13 @@ IPL-EDA-Project
 - ✅ Top Run Scorers
 - ✅ Top Wicket Takers
 - ✅ Toss Decision Analysis
-- ✅ Match Result Analysis
 - ✅ Interactive Charts
 - ✅ Dataset Preview
 - ✅ CSV Download
 
 ---
 
-
-# 📷 Screenshots
-
-## 📊 Power BI Dashboard
+# 🖼 Dashboard Preview
 
 <p align="center">
 <img src="screenshots/dashboard.png" width="1000">
@@ -124,40 +122,30 @@ IPL-EDA-Project
 
 ---
 
-## 🌐 Streamlit Dashboard
-
-### Live Application
-
-👉 https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
-
-### Features
-
-- 📊 KPI Cards
-- 📅 Season Filter
-- 👥 Team Filter
-- 🏆 Top Winning Teams
-- 🏏 Top Run Scorers
-- 🎯 Top Wicket Takers
-- 📈 Interactive Charts
-- 📋 Dataset Preview
-- 📥 CSV Download
-
----
-
 # 📈 Key Insights
 
 - 🏆 Mumbai Indians are among the most successful IPL franchises.
-- 🏏 Virat Kohli ranks among the highest run scorers.
-- 🎯 Leading bowlers consistently dominate wicket charts.
-- 🪙 Toss decisions influence match strategies.
-- 🏟 Venue conditions significantly impact match outcomes.
+- 🏏 Virat Kohli is among the highest run scorers in IPL history.
+- 🎯 Leading bowlers consistently dominate the wicket charts.
+- 🪙 Toss decisions significantly influence match strategy.
+- 🏟 Venue conditions impact match outcomes.
 - 📅 Match distribution varies across IPL seasons.
 
 ---
 
 # 📊 Power BI Dashboard
 
-Open the dashboard file:
+The project includes a professional **Power BI Dashboard** featuring:
+
+- KPI Cards
+- Team Performance Analysis
+- Player Statistics
+- Venue Analysis
+- Toss Analysis
+- Season-wise Trends
+- Interactive Filters
+
+Open the dashboard:
 
 ```text
 powerbi/IPL_Analytics_Dashboard.pbix
@@ -167,7 +155,7 @@ powerbi/IPL_Analytics_Dashboard.pbix
 
 # 📄 Reports Generated
 
-The project automatically generates:
+The project automatically exports:
 
 - Batting Summary
 - Bowling Summary
@@ -218,19 +206,11 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the Streamlit Dashboard
+Run the Streamlit application
 
 ```bash
 streamlit run app.py
 ```
-
----
-
-# 🌐 Live Demo
-
-### 🚀 Try the Application
-
-https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
 
 ---
 
@@ -241,19 +221,25 @@ https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
 - Player Comparison Dashboard
 - Team Performance Prediction
 - Advanced Interactive Analytics
-- Authentication & User Login
+- User Authentication
 
 ---
 
 # 👩‍💻 Author
 
-**Janvi Chauhan**
+## Janvi Chauhan
 
-**GitHub:**  
+**GitHub**
+
 https://github.com/janvichauhan1639-source
 
-**Live Demo:**  
+**Live Demo**
+
 https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
+
+**LinkedIn**
+
+(Add your LinkedIn profile link here)
 
 ---
 
@@ -261,4 +247,4 @@ https://ipl-eda-project-dlxefhvo3ssdizr3qgaqfc.streamlit.app
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-Your support motivates me to build more open-source Data Analytics and Machine Learning projects.
+Your support motivates me to build more Data Analytics, Machine Learning, and Business Intelligence projects.

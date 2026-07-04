@@ -2,36 +2,39 @@
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-blue)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-blue)
 ![SQL](https://img.shields.io/badge/SQL-MySQL-orange)
-![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
+![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-## 📌 Project Overview
+---
 
-This project performs an end-to-end Exploratory Data Analysis (EDA) on the Indian Premier League (IPL) dataset (2008–2023) using **Python**, **SQL**, and **Power BI**.
+# 📌 Project Overview
 
-The objective is to uncover meaningful insights related to team performance, player statistics, match trends, batting, bowling, venues, and toss decisions through data analysis and interactive dashboards.
+This project performs a comprehensive Exploratory Data Analysis (EDA) on the Indian Premier League (IPL) dataset covering seasons from **2008 to 2023**.
+
+Using **Python**, **SQL**, and **Power BI**, the project analyzes batting, bowling, team performance, player statistics, venues, toss decisions, seasonal trends, and generates an interactive dashboard for visualization.
 
 ---
 
-# 🚀 Features
+# 🚀 Project Features
 
-- Dataset Overview
-- Team Performance Analysis
-- Player Performance Analysis
-- Batting Analysis
-- Bowling Analysis
-- Boundary Analysis
-- Toss Analysis
-- Venue Analysis
-- Season-wise Analysis
-- SQL Business Queries
-- Interactive Power BI Dashboard
-- CSV Report Generation
+- 📊 Exploratory Data Analysis (EDA)
+- 🏏 Batting Analysis
+- 🎯 Bowling Analysis
+- 💥 Boundary Analysis
+- 👥 Player Analysis
+- 🏆 Team Analysis
+- 🪙 Toss Analysis
+- 🏟 Venue Analysis
+- 📅 Season-wise Analysis
+- 🗄 SQL Queries
+- 📈 Power BI Dashboard
+- 📄 CSV Report Generation
 
 ---
 
-# 🛠 Tech Stack
+# 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -47,20 +50,20 @@ The objective is to uncover meaningful insights related to team performance, pla
 
 # 📂 Project Structure
 
-```
+```text
 IPL-EDA-Project
 │
 ├── analysis/
 │   ├── batting_analysis.py
 │   ├── bowling_analysis.py
 │   ├── boundary_analysis.py
+│   ├── dataset_overview.py
+│   ├── export_reports.py
 │   ├── player_analysis.py
 │   ├── season_analysis.py
 │   ├── team_analysis.py
 │   ├── toss_analysis.py
-│   ├── venue_analysis.py
-│   ├── dataset_overview.py
-│   └── export_reports.py
+│   └── venue_analysis.py
 │
 ├── data/
 │   ├── deliveries.csv
@@ -69,81 +72,112 @@ IPL-EDA-Project
 ├── reports/
 │
 ├── sql/
-│   ├── Basic Queries
-│   ├── Aggregate Queries
-│   ├── Group By
-│   ├── Joins
-│   ├── Subqueries
-│   ├── Window Functions
-│   ├── CTE
-│   ├── Business Questions
-│   ├── CASE Statements
-│   └── Interview Questions
+│   ├── 01_database.sql
+│   ├── 02_basic_queries.sql
+│   ├── 03_aggregate_queries.sql
+│   ├── 04_groupby_queries.sql
+│   ├── 05_joins.sql
+│   ├── 06_subqueries.sql
+│   ├── 07_window_functions.sql
+│   ├── 08_cte.sql
+│   ├── 09_business_question.sql
+│   ├── 10_case_statements.sql
+│   └── 11_interview_queries.sql
 │
 ├── screenshots/
+│   └── dashboard.png
 │
 ├── powerbi/
+│   └── IPL_Analytics_Dashboard.pbix
 │
 ├── eda.py
-├── README.md
 ├── requirements.txt
+├── README.md
 └── LICENSE
 ```
 
 ---
 
-# 📊 Dashboard
+# 📊 Dashboard Overview
 
-The Power BI dashboard provides:
+The interactive Power BI dashboard includes:
 
-- Total Matches
-- Total Runs
-- Total Wickets
-- Unique Winning Teams
-- Season-wise Matches
-- Top 10 Run Scorers
-- Top 10 Wicket Takers
-- Most Successful Teams
-- Toss Decision Distribution
-- Interactive Filters
-  - Season
-  - Team
-  - City
-
----
-
-# 📈 Key Insights
-
-- Mumbai Indians are among the most successful IPL teams.
-- Virat Kohli is one of the highest run scorers.
-- Leading bowlers consistently dominate wicket charts.
-- Batting first has been a common toss strategy in many seasons.
-- IPL match distribution varies across seasons.
-- Venue plays an important role in match outcomes.
+- ✅ Total Matches
+- ✅ Total Runs
+- ✅ Total Wickets
+- ✅ Unique Winning Teams
+- ✅ Matches by Season
+- ✅ Top 10 Run Scorers
+- ✅ Top 10 Wicket Takers
+- ✅ Most Successful Teams
+- ✅ Toss Decision Distribution
+- ✅ Season Filter
+- ✅ Team Filter
+- ✅ City Filter
 
 ---
 
 # 🖼 Dashboard Preview
 
-> Add your dashboard screenshot here.
+<p align="center">
+<img src="screenshots/dashboard.png" width="1000">
+</p>
 
-Example:
+---
 
-```
-screenshots/dashboard.png
-```
+# 📈 Key Insights
+
+- Mumbai Indians are among the most successful IPL franchises.
+- Virat Kohli is one of the highest run scorers in IPL history.
+- Leading bowlers consistently dominate wicket charts.
+- Toss decisions influence match strategies.
+- Match distribution varies across IPL seasons.
+- Venue conditions significantly impact match outcomes.
+
+---
+
+# 📁 Reports Generated
+
+The project automatically generates CSV reports including:
+
+- Batting Summary
+- Bowling Summary
+- Boundary Summary
+- Player Summary
+- Team Summary
+- Season Summary
+- Toss Summary
+- Venue Summary
+
+---
+
+# 🗄 SQL Concepts Covered
+
+- SELECT
+- WHERE
+- GROUP BY
+- HAVING
+- ORDER BY
+- Aggregate Functions
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- CASE Statements
+- Subqueries
+- Window Functions
+- Common Table Expressions (CTE)
 
 ---
 
 # ⚙ Installation
 
-Clone the repository
+Clone Repository
 
 ```bash
 git clone https://github.com/janvichauhan1639-source/IPL-EDA-Project.git
 ```
 
-Move into project folder
+Move into project
 
 ```bash
 cd IPL-EDA-Project
@@ -155,7 +189,7 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Run the project
+Run project
 
 ```bash
 python eda.py
@@ -163,44 +197,24 @@ python eda.py
 
 ---
 
-# 📊 SQL Topics Covered
+# 📊 Power BI Dashboard
 
-- SELECT
-- WHERE
-- GROUP BY
-- HAVING
-- ORDER BY
-- Aggregate Functions
-- INNER JOIN
-- LEFT JOIN
-- RIGHT JOIN
-- Subqueries
-- Window Functions
-- Common Table Expressions (CTE)
-- CASE Statements
+Open the dashboard file:
 
----
-
-# 📁 Reports Generated
-
-- Batting Summary
-- Bowling Summary
-- Boundary Summary
-- Player Summary
-- Team Summary
-- Toss Summary
-- Season Summary
-- Venue Summary
+```
+powerbi/IPL_Analytics_Dashboard.pbix
+```
 
 ---
 
 # 🎯 Future Improvements
 
+- Live IPL Data API Integration
 - Streamlit Dashboard
-- Machine Learning Prediction
-- Win Probability Model
-- Live IPL Data Integration
+- Machine Learning Win Prediction
 - Player Comparison Dashboard
+- Advanced Power BI Analytics
+- Team Performance Prediction
 
 ---
 
@@ -208,10 +222,14 @@ python eda.py
 
 **Janvi Chauhan**
 
-GitHub
-
+GitHub:
 https://github.com/janvichauhan1639-source
 
 ---
 
-## ⭐ If you found this project useful, don't forget to star this repository.
+# ⭐ Support
+
+If you found this project helpful, please ⭐ Star this repository.
+
+It motivates me to build more open-source Data Analytics projects.
+

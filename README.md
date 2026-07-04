@@ -105,13 +105,7 @@ IPL-EDA-Project
 
 ---
 
-# 🖼 Dashboard Preview
 
-<p align="center">
-<img src="screenshots/dashboard.png" width="1000">
-</p>
-
----
 
 # 📷 Screenshots
 
